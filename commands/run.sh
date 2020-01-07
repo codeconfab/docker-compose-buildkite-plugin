@@ -264,7 +264,7 @@ set +e
 exitcode=$?
 
 # Restore -e as an option.
-set -e
+set -ex
 
 if [[ $exitcode -ne 0 ]] ; then
   echo "^^^ +++"
